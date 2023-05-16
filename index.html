@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Group 2 Project Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      margin-top: 30px;
+      opacity: 0.8;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Group 2 Project Demo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://dezyre.gumlet.io/images/blog/lstm-model/Long_Short_Term_Memory_(LSTM)_Models.png?w=400&dpr=2.6" alt="Card image cap">
+          <div class="card-body">
+            <LSTM class="card-title">LSTM Model</h5>
+            <p class="card-text">Developed by OUN Virketh.</p>
+            <a href="option1.html" class="btn btn-primary">Go to LSTM</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="data:image/png;base64,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" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ETS Model</h5>
+            <p class="card-text">Developed by MAO Kimlang.</p>
+            <a href="https://vikreth-ets-ets-apnpwd.streamlit.app/" class="btn btn-primary">Go to ETS</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Time_Series_Analysis_In_Python_4.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ARIMA Model</h5>
+            <p class="card-text">Developed by NANG Sreynich.</p>
+            <a href="https://vikreth-arima-khmerstock-app-8leu8b.streamlit.app/" class="btn btn-primary">Go to ARIMA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
